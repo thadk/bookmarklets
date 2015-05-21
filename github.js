@@ -20,7 +20,7 @@ javascript:(function() {
   }
   else {
     window.location = host[2] === 'io'
-    ? 'https://github.com/' + host[0] + '/' + path[0]
+    ? 'https://github.com/' + host[0] + '/' + path[0] + '/tree/gh-pages'
     : 'http://' + path[0] + '.github.io/' + path[1];
   }
 })();
