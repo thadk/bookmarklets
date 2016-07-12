@@ -1,6 +1,8 @@
 # bookmarklets
 
 pinboard with referrer:
+------
+
 Stacks with highlight-to-add description.
 
 Example:  
@@ -17,6 +19,10 @@ To install, make a new bookmark on your Bookmark bar by dragging the favicon fro
 
 
 -----
+
+Github toggle between github.io domain and its repository
+----
+
 paste the source code into a bookmark's `url` field to create a bookmarklet
 
 currently only `github.js`, which toggles between a repo's source and docs
