@@ -34,6 +34,20 @@ broken on firefox + https github:
 
 also see [rawgithub](https://github.com/rgrove/rawgithub)
 
+-----
+Carto.com (and open source carto) grab the tile URL to clipboard
+----
+
+If you have the carto leaflet map loaded on the screen, this grabs a PNG tile URL like
+
+`https://cartocdn-gusc-d.global.ssl.fastly.net/thadk/api/v1/map/thadk@87dd8c26@dd4f32d56dae379c9c525987eed03e4e:1532535143384/1,3,4,5,7,8/7/77/66.png`
+
+alters it into
+
+`https://cartocdn-gusc-{s}.global.ssl.fastly.net/thadk/api/v1/map/thadk@87dd8c26@dd4f32d56dae379c9c525987eed03e4e:1532535143384/0,1,3,4,5,7,8/{z}/{x}/{y}.png`
+
+and puts it on your clipboard.
+
 ## The Bookmarkets themselves
 ### For dragging to the menu
 
