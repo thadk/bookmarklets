@@ -35,8 +35,10 @@ broken on firefox + https github:
 also see [rawgithub](https://github.com/rgrove/rawgithub)
 
 -----
-Carto.com (and open source carto) grab the tile URL to clipboard
-----
+## Carto.com (and open source Carto): grab the tile URL to clipboard
+-----
+
+This can be used in e.g. Knightlabs' Storymap.
 
 If you have the carto leaflet map loaded on the screen, this grabs a PNG tile URL like
 
